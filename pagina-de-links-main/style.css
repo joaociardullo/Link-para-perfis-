@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,:after,:before {
+    box-sizing: inherit;
+}
+
+/* Estilo do corpo */
+body {
+    background-color: #171738;
+    background-image: linear-gradient(#151515 2%,#111111 10% ,#4D5057 100%);
+    color: #fff;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Roboto,sans-serif;
+}
+
+.logo {
+    width: 120px;
+}
+
+/* Para o logo ficar redondo */
+img	{
+    border-radius: 50%;
+}
+ 
+/* Estilizar o Link */
+a {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto 15px;
+    padding: 15px 20px;
+    font-size: .85rem;color:#fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    border-radius: 12px;
+}
